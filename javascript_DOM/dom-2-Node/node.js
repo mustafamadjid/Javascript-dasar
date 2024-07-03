@@ -7,3 +7,4 @@ console.info(menu.children);
 const second = document.getElementById("second");
 console.info(second.textContent);
 console.info(second.previousSibling);
+fecfvcr;
