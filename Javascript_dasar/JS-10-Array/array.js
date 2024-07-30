@@ -14,3 +14,10 @@ console.info(array.length);
 delete array[1];
 
 console.table(array);
+
+// Foreach
+
+const cars = ["Toyota", "Ferrari", "Lambhorgini"];
+cars.forEach(function (value, index) {
+  console.info(`${index} : ${value}`);
+});

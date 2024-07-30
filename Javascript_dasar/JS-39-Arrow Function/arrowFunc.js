@@ -20,3 +20,9 @@ document.writeln("</br>");
 let employee = (position) => document.writeln(`I Work as ${position}`);
 
 employee("Manager");
+
+let helloMessage = () => {
+  document.writeln("Hello Message");
+};
+
+helloMessage();

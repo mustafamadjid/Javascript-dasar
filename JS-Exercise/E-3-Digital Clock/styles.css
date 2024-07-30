@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-image: url("https://cdn-imgix.headout.com/tour/29758/TOUR-IMAGE/b42dc9c7-4e5b-4dd8-afa5-1a6f6b21f075-15923-new-york-central-park-walking-tour-01-5-.jpg?auto=compress&fm=webp&w=1200&h=650&crop=faces&fit=min");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(30px);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  width: 100%;
+}
