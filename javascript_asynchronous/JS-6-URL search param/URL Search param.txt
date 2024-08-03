@@ -1,5 +1,6 @@
 
 # URL Search Param #
+
 - Selain format JSON, kadang saat mengirim data menggunakan AJAX, kita hanya mengirim 
   data dalam bentuk Query Parameter
 
